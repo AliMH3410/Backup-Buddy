@@ -1,0 +1,67 @@
+# 📦 backupbuddy
+
+`backupbuddy.sh` is a smart Bash-based backup tool for Linux users. It allows you to back up files or directories with optional versioning, and custom destination support — all from your terminal.
+
+---
+
+## 🚀 Features
+
+- ✅ Back up any file or directory
+- 📁 Save backups to a custom destination
+- 🕓 Automatically timestamped archive filenames
+- 🔖 Version count display
+- 🧼 Clean, user-friendly command-line interface
+
+---
+
+## 🛠️ Dependencies
+
+To use all features, ensure the following are installed:
+
+- `bash` (usually preinstalled)
+- `tar`
+
+---
+
+## 📂 Compatibility
+
+Tested on:
+
+Debian 12 (Bookworm)
+Most Linux distributions with Bash 4+
+
+📦 Usage
+./backupbuddy.sh -s <source> -d <destination> [-v] [-h]
+
+---
+
+## 🔧 Options
+
+Option	Description
+-s	Path to the source file or directory (required)
+-d	Path to the destination directory (required)
+-v	Show version info (optional)
+-h	Show help message
+
+---
+
+## 📌 Example
+./backupbuddy.sh -s ~/Documents/report.pdf -d ~/Backups
+This will create a compressed backup of report.pdf in the ~/Backups directory.
+
+---
+
+## 🔐 License
+This project is licensed under the MIT License.
+
+---
+
+## 🙋‍♂️ Author
+Ali Muhammad Hamed
+📍 Egypt 🇪🇬
+Linux enthusiast, physics researcher.
+
+---
+
+## 🌟 Show your support
+If you find this script useful, consider ⭐ starring the repository on GitHub!
