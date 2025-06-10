@@ -1,4 +1,4 @@
-# 📦 backupbuddy
+## 📦 backupbuddy
 
 `backupbuddy.sh` is a smart Bash-based backup tool for Linux users. It allows you to back up files or directories with optional versioning, and custom destination support — all from your terminal.
 
